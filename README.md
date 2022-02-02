@@ -1,1 +1,1 @@
-# Everyting fails :(
+# Everything fails :(
