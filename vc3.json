@@ -1,0 +1,50 @@
+{
+  "@context": ["https://www.w3.org/2018/credentials/v1", "https://credreg.net/ctdlasn/schema/context/json"],
+  "type": ["VerifiableCredential"],
+  "issuer": "did:key:z6MkrzF2k2dxeDDGwMWNXK7sTcCvdjFaabHe5NXWWppjACck",
+  "issuanceDate": "2022-01-18T16:42:59Z",
+  "credentialSubject": {
+    "id": "did:key:z6MkfwmZep5ZvkHfeXszxhxEuvkmGFRc8H9Nv9ZaQG4vhFzZ",
+    "schema:hasCredential": {
+      "type": "ceterms:MicroCredential",
+      "ceterms:name": "Ogi ogi",
+      "ceterms:description": "This is a proof that things work!",
+      "ceterms:relatedAction": {
+        "type": "ceterms:CredentialingAction",
+        "ceterms:startDate": "2022-01-18T15:42:55.569Z",
+        "ceterms:endDate": "2022-01-20T15:42:55.569Z"
+      },
+      "ceterms:subject": [
+        {
+          "type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": {
+            "en-US": "Making sure you know Javascript"
+          }
+        }
+      ]
+    }
+  },
+  "proof": [
+    {
+      "type": "Ed25519Signature2018",
+      "created": "2022-01-18T15:42:59Z",
+      "verificationMethod": "did:key:z6MkrzF2k2dxeDDGwMWNXK7sTcCvdjFaabHe5NXWWppjACck#z6MkrzF2k2dxeDDGwMWNXK7sTcCvdjFaabHe5NXWWppjACck",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OEtI3MejkUSRwL1SGJgEVot5NkGUy9g1GuMqoA4NZ6RIiMgek6rYSwqvJKTr_xrP0ce_tQE46tBdQQ6wpXIfDQ"
+    },
+    {
+      "type": "Ed25519Signature2018",
+      "created": "2022-01-18T15:42:59Z",
+      "verificationMethod": "did:key:z6MkqeMKDqNgDXCtHr2nYnubpWXseZfwVosaztw1dkU2axzy#z6MkqeMKDqNgDXCtHr2nYnubpWXseZfwVosaztw1dkU2axzy",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lHwnUnxedGgXPxnvt2MVTt0msYCANvOzjV-OD-ml5DpNoyfxMrE_j5xu1pPBI2KIHdFq7zX1dXr9XBRl341iCA"
+    },
+    {
+      "type": "Ed25519Signature2018",
+      "created": "2022-01-18T15:42:59Z",
+      "verificationMethod": "did:key:z6MkptHFP9GLhMP6TqGJL3FmvSNKMCp3BkeEcPRkb7wdao6q#z6MkptHFP9GLhMP6TqGJL3FmvSNKMCp3BkeEcPRkb7wdao6q",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oxBEA9hOI3a_30cXRlzP_9XSEX2JhEF8TdblfipVu6xzs6h8uBeFuxig5_7t-s5WXL4Bbi5hY952fVB65pXODw"
+    }
+  ]
+}

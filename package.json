@@ -23,10 +23,13 @@
     "ts-node-dev": "^1.1.8"
   },
   "dependencies": {
-    "@transmute/credentials-context": "0.7.0-unstable.41",
+    "@digitalbazaar/did-method-key": "^2.0.0",
+    "@digitalbazaar/ed25519-signature-2018": "^2.1.0",
+    "@digitalbazaar/vc": "^2.1.0",
+    "@transmute/credentials-context": "0.7.0-unstable.50",
     "@transmute/did-key-ed25519": "^0.3.0-unstable.5",
-    "@transmute/ed25519-signature-2018": "0.7.0-unstable.41",
-    "@transmute/vc.js": "0.7.0-unstable.41",
+    "@transmute/ed25519-signature-2018": "0.7.0-unstable.50",
+    "@transmute/vc.js": "0.7.0-unstable.50",
     "axios": "^0.25.0",
     "dotenv": "9.0.2",
     "jose": "^4.4.0",
