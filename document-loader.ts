@@ -37,13 +37,11 @@ export class DocumentLoader {
   
       if (iri.startsWith("did:key:z6M")) {
         if(this.type === 'transmute') {
-          const iri2 = iri.split('#')[0]
-          console.log(iri2)
-          const { didDocument }: any = await ed25519.resolve(iri2);
+          const justDid = iri.split('#')[0]
+          const { didDocument }: any = await ed25519.resolve(justDid);
           return { document: didDocument };
         } else {
           const didDocument = await didKeyDriver.get({did: iri})
-          console.log(didDocument);
           return { document: didDocument}
 
         }

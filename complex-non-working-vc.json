@@ -6,8 +6,8 @@
     "type": [
         "VerifiableCredential"
     ],
-    "issuer": "did:key:z6MktiSzqF9kqwdU8VkdBKx56EYzXfpgnNPUAGznpicNiWfn",
-    "issuanceDate": "2022-01-18T16:42:59Z",
+    "issuer": "did:key:z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3",
+    "issuanceDate": "2022-03-04T12:47:37Z",
     "credentialSubject": {
         "id": "did:key:z6MkfwmZep5ZvkHfeXszxhxEuvkmGFRc8H9Nv9ZaQG4vhFzZ",
         "schema:hasCredential": {
@@ -16,8 +16,8 @@
             "ceterms:description": "This is a proof that things work!",
             "ceterms:relatedAction": {
                 "type": "ceterms:CredentialingAction",
-                "ceterms:startDate": "2022-01-18T15:42:55.569Z",
-                "ceterms:endDate": "2022-01-20T15:42:55.569Z"
+                "ceterms:startDate": "2022-03-04T11:47:30.558Z",
+                "ceterms:endDate": "2022-03-06T11:47:30.558Z"
             },
             "ceterms:subject": [
                 {
@@ -31,9 +31,9 @@
     },
     "proof": {
         "type": "Ed25519Signature2018",
-        "created": "2022-02-01T13:47:20Z",
-        "verificationMethod": "did:key:z6MktiSzqF9kqwdU8VkdBKx56EYzXfpgnNPUAGznpicNiWfn#z6MktiSzqF9kqwdU8VkdBKx56EYzXfpgnNPUAGznpicNiWfn",
+        "created": "2022-03-04T11:47:37Z",
+        "verificationMethod": "did:key:z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3#z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KP3jNQm3SMcrVenJ6tfuCJbRdzsQ1YV970aqbpDobu_w1XYpCf9NgGVOCgloKBcAEqz8KeDlB6uVKiujmWqiBw"
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4drVdi8Q9XeKHyUQqvpN9BZjEkyt-1LU07qLba3duFb0bOBiefIX1mojx0j_82y4_8h0ud7FEsd4R_th_UDsCw"
     }
 }

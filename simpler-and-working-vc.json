@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/traceability/v1"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "issuer": "did:key:z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3",
+    "issuanceDate": "2022-03-04T12:43:32Z",
+    "credentialSubject": {
+        "type": "ContactPoint",
+        "id": "did:key:z6MkfwmZep5ZvkHfeXszxhxEuvkmGFRc8H9Nv9ZaQG4vhFzZ",
+        "phoneNumber": "+46456812311",
+        "identifier": "7870dab0-f8f5-11eb-b356-657b2e987fed"
+    },
+    "proof": {
+        "type": "Ed25519Signature2018",
+        "created": "2022-03-04T11:43:32Z",
+        "verificationMethod": "did:key:z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3#z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3",
+        "proofPurpose": "assertionMethod",
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..wPSZfYDgMe5dwaHQVPrQQWqFwM1qZNHYNH79g8orIS0PgmKkBSC3uuKs4B7O35vjKv1-e0SHGW2h6EG0ZmcaBg"
+    }
+}
