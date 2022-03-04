@@ -7,7 +7,7 @@
         "VerifiableCredential"
     ],
     "issuer": "did:key:z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3",
-    "issuanceDate": "2022-03-04T12:47:37Z",
+    "issuanceDate": "2022-03-04T13:01:44Z",
     "credentialSubject": {
         "id": "did:key:z6MkfwmZep5ZvkHfeXszxhxEuvkmGFRc8H9Nv9ZaQG4vhFzZ",
         "schema:hasCredential": {
@@ -16,8 +16,8 @@
             "ceterms:description": "This is a proof that things work!",
             "ceterms:relatedAction": {
                 "type": "ceterms:CredentialingAction",
-                "ceterms:startDate": "2022-03-04T11:47:30.558Z",
-                "ceterms:endDate": "2022-03-06T11:47:30.558Z"
+                "ceterms:startDate": "2022-03-04T12:01:37.479Z",
+                "ceterms:endDate": "2022-03-06T12:01:37.479Z"
             },
             "ceterms:subject": [
                 {
@@ -31,9 +31,9 @@
     },
     "proof": {
         "type": "Ed25519Signature2018",
-        "created": "2022-03-04T11:47:37Z",
+        "created": "2022-03-04T12:01:44Z",
         "verificationMethod": "did:key:z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3#z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3",
         "proofPurpose": "assertionMethod",
-        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..4drVdi8Q9XeKHyUQqvpN9BZjEkyt-1LU07qLba3duFb0bOBiefIX1mojx0j_82y4_8h0ud7FEsd4R_th_UDsCw"
+        "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qaxO3dA4Bcre2P6ahRjZE-OB61EU481O-v1W7VRyRpLvjnPbJAEv9WiuJ5zeaZjBJMa9-Ni7Kxm9WhVMdliDCw"
     }
 }
