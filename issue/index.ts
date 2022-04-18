@@ -1,3 +1,4 @@
+import 'core-js/actual/structured-clone';
 import { transmute } from "./transmute-issue";
 import { digitalbazaar } from "./db-issue";
 
@@ -13,11 +14,15 @@ const main = async  () => {
   console.log("========================")
   console.log("ISSUEING WITH TRANSMUTE")
   console.log("========================")
-  await transmute(template, rightKey);
+  //@ts-ignore
+  const templateForTransmute = structuredClone(template);
+  await transmute(templateForTransmute, rightKey);
   console.log("========================")
   console.log("ISSUEING WITH DIGITAL BAZAAR")
   console.log("========================")
-  await digitalbazaar(template, rightKey);
+  //@ts-ignore
+  const templateForDb = structuredClone(template);
+  await digitalbazaar(templateForDb, rightKey);
   
 }
 
