@@ -1,5 +1,5 @@
 {
-  "@context": {
+    "@context": {
       "asn": "http://purl.org/ASN/schema/core/",
       "asnPublicationStatus": "http://purl.org/asn/scheme/ASNPublicationStatus/",
       "asnscheme": "http://purl.org/asn/scheme/",
@@ -23,1412 +23,1389 @@
       "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns#",
       "xsd": "http://www.w3.org/2001/XMLSchema#",
       "asn:hasProgressionLevel": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "asn:hasProgressionModel": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:abilityEmbodied": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:alignFrom": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:alignTo": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:altCodedNotation": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceasn:author": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceasn:broadAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:codedNotation": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceasn:comment": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:competencyCategory": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:competencyLabel": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:competencyText": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:complexityLevel": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:comprisedOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:conceptKeyword": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:conceptTerm": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:creator": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:crossSubjectReference": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:dateCopyrighted": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceasn:dateCreated": {
-          "@type": "@id"
+        "@type": "xsd:date"
       },
       "ceasn:dateModified": {
-          "@type": "@id"
+        "@type": "xsd:dateTime"
       },
       "ceasn:dateValidFrom": {
-          "@type": "@id"
+        "@type": "xsd:dateTime"
       },
       "ceasn:dateValidUntil": {
-          "@type": "@id"
+        "@type": "xsd:dateTime"
       },
       "ceasn:derivedFrom": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:description": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:educationLevelType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:exactAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:hasChild": {
-          "@type": "@id",
-          "@container": "@list"
+        "@type": "@id",
+        "@container": "@list"
       },
       "ceasn:hasTopChild": {
-          "@type": "@id",
-          "@container": "@list"
+        "@type": "@id",
+        "@container": "@list"
       },
       "ceasn:identifier": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:inferredCompetency": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:inLanguage": {
-          "@type": "@id"
+        "@type": "xsd:language"
       },
       "ceasn:isChildOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:isPartOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:isTopChildOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:isVersionOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:knowledgeEmbodied": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:license": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:listID": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceasn:localSubject": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:majorAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:minorAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:name": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:narrowAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:prerequisiteAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:publicationStatusType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:publisher": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:publisherName": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:repositoryDate": {
-          "@type": "@id"
+        "@type": "xsd:date"
       },
       "ceasn:rights": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:rightsHolder": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:shouldIndex": {
-          "@type": "@id"
+        "@type": "xsd:boolean"
       },
       "ceasn:skillEmbodied": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:source": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:sourceDocumentation": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:substantiatingCompetencyFramework": {
-          "@type": "@id"
-      },
-      "ceasn:substantiatingCredential": {
-          "@type": "@id"
-      },
-      "ceasn:substantiatingJob": {
-          "@type": "@id"
-      },
-      "ceasn:substantiatingOccupation": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:substantiatingOrganization": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:substantiatingResource": {
-          "@type": "@id"
-      },
-      "ceasn:substantiatingTask": {
-          "@type": "@id"
-      },
-      "ceasn:substantiatingWorkRole": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:tableOfContents": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceasn:taskEmbodied": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceasn:weight": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "ceterms:ctid": {
-          "@type": "@id"
-      },
-      "ceterms:industryType": {
-          "@type": "@id"
-      },
-      "ceterms:instructionalProgramType": {
-          "@type": "@id"
-      },
-      "ceterms:occupationType": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "skos:altLabel": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "skos:broader": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "skos:broadMatch": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "skos:changeNote": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "skos:closeMatch": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "skos:definition": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "skos:exactMatch": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "skos:hasTopConcept": {
-          "@type": "@id",
-          "@container": "@list"
+        "@type": "@id",
+        "@container": "@list"
       },
       "skos:hiddenLabel": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "skos:inScheme": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "skos:narrower": {
-          "@type": "@id",
-          "@container": "@list"
+        "@type": "@id",
+        "@container": "@list"
       },
       "skos:narrowMatch": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "skos:notation": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "skos:note": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "skos:prefLabel": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "skos:related": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "skos:topConceptOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:administrationProcess": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:description": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:earnings": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:employmentOutcome": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:endDate": {
-          "@type": "@id"
-      },
-      "ceterms:externalInputType": {
-          "@type": "@id"
+        "@type": "xsd:date"
       },
       "ceterms:geoURI": {
-          "@type": "@id"
+        "@type": "@id"
+      },
+      "ceterms:instructionalProgramType": {
+        "@type": "@id"
       },
       "ceterms:jurisdiction": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:jurisdictionException": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:latitude": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "ceterms:longitude": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "ceterms:mainJurisdiction": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:name": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:processFrequency": {
-          "@container": "@language"
-      },
-      "ceterms:processingAgent": {
-          "@type": "@id"
+        "@container": "@language"
       },
       "ceterms:processMethod": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:processMethodDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:source": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:startDate": {
-          "@type": "@id"
+        "@type": "xsd:date"
       },
       "ceterms:verificationMethodDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "qdata:adjustment": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "qdata:administrativeRecordType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:dataAttributes": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:dataAvailable": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:dataCollectionMethodType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:dataNotAvailable": {
-          "@type": "@id"
-      },
-      "qdata:dataProvider": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:dataSetTimePeriod": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:dataSourceCoverageType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:dataSuppressionPolicy": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "qdata:dataWithholdingType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:demographicEarningsRate": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:demographicEmploymentRate": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:distributionFile": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:earningsAmount": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:earningsDefinition": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "qdata:earningsDistribution": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:earningsThreshold": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "qdata:employmentDefinition": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "qdata:employmentOutlook": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:employmentRate": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:holdersInSet": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:incomeDeterminationType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:industryRate": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:insufficientEmploymentCriteria": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:median": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "qdata:meetEmploymentCriteria": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:nonCompleters": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:nonHoldersInSet": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:occupationRate": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:passRate": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:percentage": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "qdata:percentile10": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "qdata:percentile25": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "qdata:percentile75": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "qdata:percentile90": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "qdata:regionalEarningsDistribution": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:regionalEmploymentRate": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:relatedEmployment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:relevantDataSet": {
-          "@type": "@id"
-      },
-      "qdata:relevantDataSetFor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:subjectExcluded": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:subjectIdentification": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "qdata:subjectsInSet": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:subjectType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:subjectValue": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:sufficientEmploymentCriteria": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:totalWIOACompleters": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:totalWIOAExiters": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:totalWIOAParticipants": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:unrelatedEmployment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "qdata:workTimeThreshold": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "schema:about": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "schema:currency": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "schema:description": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "schema:maxValue": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "schema:minValue": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "schema:unitText": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "schema:value": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "meta:domainFor": {
-          "@type": "@id"
-      },
-      "meta:hasChangeSet": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "meta:hasConcept": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "meta:objectText": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "meta:supersededBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "meta:targetScheme": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:accreditedBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:accreditedIn": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:accredits": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:actingAgent": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:actionStatusType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:address": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:addressCountry": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:addressLocality": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:addressRegion": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:advancedStandingFrom": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:affiliatedAgent": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:affiliation": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:agent": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:agentPurpose": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:agentPurposeDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:agentSectorType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:agentType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:aggregateData": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:alignmentDate": {
-          "@type": "@id"
+        "@type": "xsd:date"
       },
       "ceterms:alignmentType": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:alternateName": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:alternativeCondition": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:alternativeRuleSet": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:appealProcess": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:approvedBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:approvedIn": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:approves": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:assertedBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:assesses": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:assessmentDeliveryType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:assessmentExample": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:assessmentExampleDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:assessmentMethodDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:assessmentMethodType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:assessmentOutput": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:assessmentProfiled": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:assessmentUseType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:audienceLevelType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:audienceType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:availabilityListing": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:availableAt": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:availableOnlineAt": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:broadAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:classification": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:codedNotation": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:commonConditions": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:commonCosts": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:complaintProcess": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:componentCategory": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:componentDesignation": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:condition": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:conditionManifestOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:conditionProfiled": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:contactPoint": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:contactType": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:copyrightHolder": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:corequisite": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:costDetails": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:costManifestOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:credentialAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:credentialId": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:credentialingAction": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:credentialProfiled": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:credentialStatusType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:credentialType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:creditLevelType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:creditUnitType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:creditUnitTypeDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:creditValue": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:currency": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:dateEffective": {
-          "@type": "@id"
+        "@type": "xsd:date"
       },
       "ceterms:degreeConcentration": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:degreeMajor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:degreeMinor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:deliveryType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:deliveryTypeDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:demographicInformation": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:department": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:developmentProcess": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:directCostType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:duns": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:email": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:employee": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:endTime": {
-          "@type": "@id"
+        "@type": "xsd:dateTime"
       },
       "ceterms:entryCondition": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:environmentalHazardType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:estimatedCost": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:estimatedDuration": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:evidenceOfAction": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:exactAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:exactDuration": {
-          "@type": "@id"
+        "@type": "schema:Duration"
       },
       "ceterms:experience": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:expirationDate": {
-          "@type": "@id"
+        "@type": "xsd:date"
+      },
+      "ceterms:externalInputType": {
+        "@type": "@id"
       },
       "ceterms:externalResearch": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:familyName": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:faxNumber": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:fein": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:financialAssistance": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:financialAssistanceType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:financialAssistanceValue": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:foundingDate": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:framework": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:frameworkName": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:givenName": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:globalJurisdiction": {
-          "@type": "@id"
+        "@type": "xsd:boolean"
       },
       "ceterms:hasAlignmentMap": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasCondition": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasConditionManifest": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasCostManifest": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasDestinationComponent": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasGroupEvaluation": {
-          "@type": "@id"
+        "@type": "xsd:boolean"
       },
       "ceterms:hasGroupParticipation": {
-          "@type": "@id"
+        "@type": "xsd:boolean"
       },
       "ceterms:hasJob": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasMember": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasOccupation": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasPart": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasPathway": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasSpecialization": {
-          "@type": "@id"
-      },
-      "ceterms:hasStatement": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasTask": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasVerificationService": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasWorkforceDemand": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:hasWorkRole": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:highEarnings": {
-          "@type": "@id"
+        "@type": "xsd:integer"
       },
       "ceterms:holderMustAuthorize": {
-          "@type": "@id"
+        "@type": "xsd:boolean"
       },
       "ceterms:holders": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:honorificSuffix": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:identifier": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:identifierType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:identifierTypeName": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:identifierValueCode": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:image": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:inAlignmentMap": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:inDemandAction": {
-          "@type": "@id"
+        "@type": "@id"
+      },
+      "ceterms:industryType": {
+        "@type": "@id"
       },
       "ceterms:inLanguage": {
-          "@type": "@id"
+        "@type": "xsd:language"
       },
       "ceterms:instrument": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:intermediaryFor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:ipedsID": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:isAdvancedStandingFor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:isDestinationComponentOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:isicV4": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:isMemberOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:isPartOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:isPreparationFor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:isProctored": {
-          "@type": "@id"
+        "@type": "xsd:boolean"
       },
       "ceterms:isRecommendedFor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:isRequiredFor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:isSimilarTo": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:isSpecializationOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:jobsObtained": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:keyword": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:latestVersion": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:learningDeliveryType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:learningMethodDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:learningMethodType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:learningOpportunityOffered": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:learningOpportunityProfiled": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:learningResource": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:leiCode": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:lifeCycleStatusType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:lowEarnings": {
-          "@type": "@id"
+        "@type": "xsd:integer"
       },
       "ceterms:maintenanceProcess": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:majorAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:maximumDuration": {
-          "@type": "@id"
+        "@type": "schema:Duration"
       },
       "ceterms:medianEarnings": {
-          "@type": "@id"
+        "@type": "xsd:integer"
       },
       "ceterms:minimumAge": {
-          "@type": "@id"
+        "@type": "xsd:integer"
       },
       "ceterms:minimumDuration": {
-          "@type": "@id"
+        "@type": "schema:Duration"
       },
       "ceterms:minorAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:missionAndGoalsStatement": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:missionAndGoalsStatementDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:naics": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:narrowAlignment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:ncesID": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:nextVersion": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:numberAwarded": {
-          "@type": "@id"
+        "@type": "xsd:integer"
       },
       "ceterms:object": {
-          "@type": "@id"
+        "@type": "@id"
+      },
+      "ceterms:occupationType": {
+        "@type": "@id"
       },
       "ceterms:offeredBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:offeredIn": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:offers": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:opeID": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:ownedBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:owns": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:parentOrganization": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:participant": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:partOfIdentifierValueSet": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:paymentPattern": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:performanceLevelType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:physicalCapabilityType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:pointValue": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:postalCode": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:postOfficeBoxNumber": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:postReceiptMonths": {
-          "@type": "@id"
+        "@type": "xsd:integer"
       },
       "ceterms:precedes": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:preparationFrom": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:prerequisite": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:previousVersion": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:price": {
-          "@type": "@id"
+        "@type": "xsd:decimal"
+      },
+      "ceterms:processingAgent": {
+        "@type": "@id"
       },
       "ceterms:processMethodType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:processStandards": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:processStandardsDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:programTerm": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:proxyFor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:qualityAssuranceTargetType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:recognizedBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:recognizedIn": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:recognizes": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:recommends": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:region": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:regulatedBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:regulatedIn": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:regulates": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:relatedAction": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:renewal": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:renewalFrequency": {
-          "@type": "@id"
+        "@type": "schema:Duration"
       },
       "ceterms:renewedBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:renewedIn": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:renews": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:requiredNumber": {
-          "@type": "@id"
+        "@type": "xsd:integer"
       },
       "ceterms:requires": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:residencyType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:residentOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:result": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:resultingAward": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:reviewProcess": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:revocation": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:revocationCriteria": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:revocationCriteriaDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:revocationProcess": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:revokedBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:revokedIn": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:revokes": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:ruleSetUsed": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:sameAs": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:sced": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:scoringMethodDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:scoringMethodExample": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:scoringMethodExampleDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:scoringMethodType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:sensoryCapabilityType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:serviceType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:socialMedia": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:sourceData": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:spatialCoverage": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:startTime": {
-          "@type": "@id"
+        "@type": "xsd:dateTime"
       },
       "ceterms:streetAddress": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:subject": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:subjectWebpage": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:submissionOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:submissionOfDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:subOrganization": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:supersededBy": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:supersedes": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetAssessment": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetCompetency": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetCompetencyFramework": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetComponent": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetContactPoint": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetCredential": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetLearningOpportunity": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetLearningResource": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetNode": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:targetNodeDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:targetNodeName": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:targetPathway": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:teaches": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:telephone": {
-          "@type": "@id"
+        "@type": "xsd:string"
       },
       "ceterms:temporalCoverage": {
-          "@type": "@id"
+        "@type": "xsd:date"
       },
       "ceterms:trainingOffered": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:transferValue": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:transferValueFor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:transferValueFrom": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:transferValueStatement": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:transferValueStatementDescription": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "ceterms:url": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:verificationDirectory": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:verificationService": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:verifiedClaimType": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:versionIdentifier": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:weight": {
-          "@type": "@id"
+        "@type": "xsd:float"
       },
       "ceterms:worksFor": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "ceterms:yearsOfExperience": {
-          "@type": "@id"
+        "@type": "xsd:float"
+      },
+      "qdata:dataProvider": {
+        "@type": "@id"
       },
       "rdfs:subclassOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "owl:equivalentProperty": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "owl:equivalentClass": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "schema:domainIncludes": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "schema:rangeIncludes": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "owl:inverseOf": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "vs:term_status": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "meta:changeHistory": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "skos:relatedMatch": {
-          "@type": "@id"
+        "@type": "@id"
       },
       "rdfs:label": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "rdfs:comment": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "dct:description": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "vann:usageNote": {
-          "@container": "@language"
+        "@container": "@language"
       },
       "skos:historyNote": {
-          "@container": "@language"
+        "@container": "@language"
       }
+    }
   }
-}
+  
