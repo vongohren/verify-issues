@@ -19,3 +19,38 @@ export const digitalbazaar = async  (vcData, key) => {
 
     console.log(JSON.stringify(signedVC));
 }
+
+export const digitalbazaarMultiIssue = async  (vcData, keys) => {
+  const jwkPromises = keys.map(async key=> {
+    const jwk = await key.export({
+      privateKey: true,
+      type: 'Ed25519VerificationKey2018',
+    });
+    return jwk
+  })
+
+  const jwks = await Promise.all(jwkPromises);
+
+  let signed;
+
+  const promises = jwks.map(async jwk => {
+    const verificationKey = await Ed25519VerificationKey2018.from(jwk);
+    const suite = new Ed25519Signature2018({ key: verificationKey })
+    if(signed) {
+      const signedVC = await vc.issue({credential: signed, suite, documentLoader});
+      signed = signedVC
+    } else {
+      const signedVC = await vc.issue({credential: vcData, suite, documentLoader});
+      signed = signedVC;
+    }
+  })
+
+  await Promise.all(promises);
+
+
+
+  
+  // console.log(JSON.stringify(signedVC, null, 2));
+
+  console.log(JSON.stringify(signed));
+}

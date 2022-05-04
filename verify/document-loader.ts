@@ -6,10 +6,12 @@ import axios from 'axios';
 import * as didKey from '@digitalbazaar/did-method-key';
 const didKeyDriver = didKey.driver({verificationSuite: Ed25519VerificationKey2018});
 
-import creg from './creg.json';
+import creg from './contexts/creg.json';
+import w3cv1 from './contexts/w3credentialsv1.json';
 
 const contexts = {
-  "https://credreg.net/ctdlasn/schema/context/json": creg
+  "https://credreg.net/ctdlasn/schema/context/json": creg,
+  "https://www.w3.org/2018/credentials/v1": w3cv1
 }
 
 const documents = {}

@@ -49,7 +49,7 @@ export const signableSimpleTemplate = {
     }
   }
 
-  export const jwkKeyTest= {
+  export const jwkKeyTest = {
     id: "did:key:z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3#z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3",
     type: "JsonWebKey2020",
     controller: "did:key:z6Mkiy4qDuyvcVDHG7zcfEDjmmLchAuk8hy4uAJrQht3wio3",
@@ -64,4 +64,38 @@ export const signableSimpleTemplate = {
       x: "QxF-PbbB8Y8DG4zjNUZ2BDep9I6c6tByNNz5mH_pvSI",
       d: "WjNFyrdIoGZBQPpSoKmbOkWBxmJx29ZdxcNi5m_euw8",
     },
+  }
+
+  export const jwkKeyTest2 = {
+    id: 'did:key:z6MkrCuzC7N4D3JfvALudSX6rBScpP18QCyaG75nHkoC5JnH#z6MkrCuzC7N4D3JfvALudSX6rBScpP18QCyaG75nHkoC5JnH',
+    type: 'JsonWebKey2020',
+    controller: 'did:key:z6MkrCuzC7N4D3JfvALudSX6rBScpP18QCyaG75nHkoC5JnH',
+    publicKeyJwk: {
+      kty: 'OKP',
+      crv: 'Ed25519',
+      x: 'rp9uc-Yzng-TfFgIS4JyQbahsfuAgsWq01KpW3KdrnY'
+    },
+    privateKeyJwk: {
+      kty: 'OKP',
+      crv: 'Ed25519',
+      x: 'rp9uc-Yzng-TfFgIS4JyQbahsfuAgsWq01KpW3KdrnY',
+      d: 'KYIv8IU-VsBbnkgypAbSfyDrFtLQ_OdK6k8qSGWpLz4'
+    }
+  }
+
+  export const jwkKeyTest3 = {
+    id: 'did:key:z6Mkr72buvcYLjmf3ncsSyrbpvf1gmyYd5Y2xYKfJapwEYsk#z6Mkr72buvcYLjmf3ncsSyrbpvf1gmyYd5Y2xYKfJapwEYsk',
+    type: 'JsonWebKey2020',
+    controller: 'did:key:z6Mkr72buvcYLjmf3ncsSyrbpvf1gmyYd5Y2xYKfJapwEYsk',
+    publicKeyJwk: {
+      kty: 'OKP',
+      crv: 'Ed25519',
+      x: 'rR1tXOm9ZzRgO3714o3pgqMIRcbX8izcodW0sdgkT2M'
+    },
+    privateKeyJwk: {
+      kty: 'OKP',
+      crv: 'Ed25519',
+      x: 'rR1tXOm9ZzRgO3714o3pgqMIRcbX8izcodW0sdgkT2M',
+      d: 'wvCkS887uUG1QdeMDu6kjM4eG4zv54FEMhpm8eXPoLo'
+    }
   }
